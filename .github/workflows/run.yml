@@ -57,5 +57,5 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git commit --allow-empty -m "chore: 执行每日任务后触发一次空提交"
+          git commit --allow-empty -m "chore: Daily task finished"
           git push
